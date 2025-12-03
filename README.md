@@ -103,3 +103,5 @@ flutter build appbundle --release
 ---
 
 SafeMap Team
+
+Carlos Lizarazo, Carlos Romero, Javier Santodomingo.
