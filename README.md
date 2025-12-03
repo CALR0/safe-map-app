@@ -7,15 +7,13 @@
 
 > Aplicación móvil Flutter para reportar y visualizar incidentes en la ciudad. Simple, rápida y pensada para uso ciudadano.
 
-![SafeMap Logo](assets/images/logo.png)
-
 ---
 
-## 🎯 Qué es
+## Qué es
 
 SafeMap permite a los ciudadanos crear reportes con fotos y vídeo, elegir la ubicación en un mapa (respetando los límites municipales), y recibir notificaciones relacionadas con sus reportes. Está construido con Flutter y Firebase, utilizando Cloudinary para almacenar multimedia.
 
-## ✨ Características principales
+## Características principales
 
 - Crear reportes con título, descripción, categoría y evidencias (foto/video)
 - Selección de ubicación mediante mapa con validación por polígono GeoJSON (no se puede elegir fuera del municipio)
@@ -23,7 +21,7 @@ SafeMap permite a los ciudadanos crear reportes con fotos y vídeo, elegir la ub
 - Panel de notificaciones por usuario y a nivel de ciudad
 - Preferencias de cuenta (foto, barrio, notificaciones push)
 
-## 🧭 Tecnologías y librerías
+## Tecnologías y librerías
 
 - Flutter (UI)
 - Dart (lenguaje)
@@ -52,14 +50,14 @@ cloudinary_public
 video_player
 ```
 
-## 🛠️ Requisitos previos
+## Requisitos previos
 
 - Flutter instalado (compatible con SDK declarado en `pubspec.yaml`).
 - Android SDK / Android Studio (para compilar APK/AAB).
 - Java JDK (si compile Android nativo)
 - Una cuenta/config de Firebase para `google-services.json` (Android) y `GoogleService-Info.plist` (iOS) si usas backend.
 
-## 🚀 Ejecutar en modo desarrollo
+## Ejecutar en modo desarrollo
 
 1. Instala dependencias:
 
@@ -73,7 +71,7 @@ flutter pub get
 flutter run
 ```
 
-## 📦 Compilar APK / AAB (Android)
+## Compilar APK / AAB (Android)
 
 - Build debug APK:
 
